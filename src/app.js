@@ -79,12 +79,15 @@ app.get('/weather', (req, res) => {
     res.send({
     forecast: data.summary + '. It is currently ' + data.current_temp + ' degrees out. There is a ' + data.current_precipProb + '% chance of rain.',
     location: codinate.place,
-    address: req.query.address
+    address: req.query.address,
+    daily_summary: data.daily_summary
     });
     });
 
     });
 });
+
+
 
 app.get('/products', (req, res) => {
     
