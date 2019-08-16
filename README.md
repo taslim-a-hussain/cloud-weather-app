@@ -1,2 +1,2 @@
 # cloud-weather-app
-[https://taslim-weather.herokuapp.com]
+<https://taslim-weather.herokuapp.com>
